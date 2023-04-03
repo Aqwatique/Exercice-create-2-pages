@@ -1,3 +1,3 @@
 # Fichier README.md
 
- Contenue du code source.
+ <!-- Contenue du code source HTML.-->
