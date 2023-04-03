@@ -1,0 +1,86 @@
+@media screen and (max-width: 1230px) {
+  #preview > p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+  #streaming {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  #preview > p {
+    position: relative;
+    text-align: justify;
+    min-width: 276px;
+    margin-top: 20px;
+  }
+}
+
+section {
+  margin-top: 20px;
+}
+
+table td, table th {
+  border: 1px rgb(0, 0, 0) solid;
+  text-align: center;
+  padding: 5px;
+}
+
+img {
+  position: relative;
+}
+
+p {
+  position: absolute;
+}
+
+#preview {
+  float: left;
+  padding-right: 20px;
+}
+
+#preview > p {
+  padding: 10px;
+  margin: 5px;
+}
+
+#streaming {
+  position: relative;
+  padding-top: 50px;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hunger-img {
+  box-shadow: 2px 2px 8px 0px rgb(0 0 0 / 75%);
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.breadcrumb {
+  margin-left: 9vw;
+  margin-top: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  min-height: 200px;
+  min-width: 100%;
+  color: #2877c0db;
+  margin-top: 7vw;
+  padding: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.918);
+  list-style-type: none;
+}
