@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Intranet</title>
+  <link rel="stylesheet" href="accueil.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<main>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f310.png" class="d-inline-block" width="75"
+        height="75">
+      <a class="navbar-brand h1" href="#">Intranet</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"></button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" aria-current="page">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Films et horaires</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Streaming</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cinéma</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Evènements</a>
+          </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0">
+          <input class="form-control me-sm-2" type="text" placeholder="Recherche...">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <div class="container-fluid">
+      <h1> En avant-première !</h1>
+      <img src="https://www.arpajon91.fr/fileadmin/_processed_/4/c/csm_Commerces_cinema_site_00915fe0f3.jpg"
+        id="Preview" width="900" height="450">
+      <div class="container text-center">
+        <ul class="row justify-content-end">
+          <li class="col-1">
+            <img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_960_720.png" width="40" height="40"
+              alt="logo_facebook">
+          </li>
+          <li class="col-1">
+            <img src="https://www.unipile.com/wp-content/uploads/2022/09/logo_instagram.png" width="40" height="40"
+              alt="logo_instagram">
+          </li>
+          <li class="col-1">
+            <img src="https://i0.wp.com/sapiens-uspc.com/wp-content/uploads/2017/10/twitter-logo-vector.png?ssl=1"
+              width="40" height="40" alt="logo_twitter">
+          </li>
+          <li class="col-1">
+            <img src="https://www.web3000.ca/tij1o/u4_reseaux_sociaux/images/pic/logo_tiktok.png" width="40" height="40"
+              alt="logo_tiktok">
+          </li>
+          <li class="col-2"></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="container text-start">
+      <div class="row row-cols-auto justify-content-sm-evenly">
+        <article class="col-5 col-md-3 ">
+          <h6> ESPACE CLIENT</h6>
+          <button type="button" class="btn btn-dark">Mon compte</button>
+          <button type="button" class="btn btn-dark">Créer un compte</button>
+        </article>
+        <article class="col-5 col-md-3" id="connexion">
+          <h6> JE RESERVE MES PLACES <br> avec un seul clic
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+              class="bi bi-fast-forward" viewBox="0 0 16 16">
+              <path
+                d="M6.804 8 1 4.633v6.734L6.804 8Zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z" />
+              <path
+                d="M14.804 8 9 4.633v6.734L14.804 8Zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+              class="bi bi-hand-index-thumb" viewBox="0 0 16 16">
+              <path
+                d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 0 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 1 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.118a.5.5 0 0 1-.447-.276l-1.232-2.465-2.512-4.185a.517.517 0 0 1 .809-.631l2.41 2.41A.5.5 0 0 0 6 9.5V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z" />
+            </svg>
+          </h6>
+        </article>
+        <article class="col-5 col-md-3">
+          <h6> NEWSLETTER</h6>
+          <label for="adresse" class="form-label">
+            <input id="adresse" type="email" class="form-control" placeholder="MyAdresse@example.com">
+            <button type="button" class="btn btn-dark"> OK </button>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h3> Films à l'affiche !</h3>
+      <p> Du 05/04/2023 au 11/04/2023</p>
+      <ul class="gallery">
+        <li><img src="https://fr.web.img2.acsta.net/pictures/22/09/29/08/42/5363876.jpg" alt="Films Smile" width="220px"
+            height="320"></li>
+        <li><img src="https://i.ytimg.com/vi/CIqfwbN1mMc/movieposter_en.jpg" alt="Films SCREAM" width="220px"
+            height="320"></li>
+        <li><img
+            src="https://www.avoir-alire.com/local/cache-vignettes/L672xH989/teen_wolf_poster-3-da469.jpg?1578318604"
+            alt="Films teen_wolf_poster-3-da469 TEENWOLF" width="220px" height="320"></li>
+        <li><img src="https://img6.cdn.cinoche.com/images/f63ad3fc3955905813bb771c7b4380b3.jpg"
+            alt="Films SUPER MARIOS BROS" width="220px" height="320"></li>
+        <li><img src="https://media.senscritique.com/media/000004674748/300/intouchables.jpg" alt="Films intouchables"
+            width="220px" height="320"></li>
+        <li><img
+            src="https://welovecinema.bnpparibas/sites/default/files/inline-images/Maman%20j%27ai%20rat%C3%A9%20l%27avion_1.jpg"
+            alt="Films Maman%20j%27ai%20rat%C3%A9%20l%27avion_1" width="220px" height="320"></li>
+        <li><img src="https://fr.web.img3.acsta.net/medias/nmedia/18/62/88/97/18754731.jpg"
+            alt="Films Pirates des Caraïbes: Jusqu'au bout du monde" width="220px" height="320"></li>
+        <li><img src="https://fr.web.img2.acsta.net/medias/nmedia/18/67/70/22/19227477.jpg" alt="Films Sherlock Holmes"
+            width="220px" height="320"></li>
+        <li><img src="https://fr.web.img6.acsta.net/pictures/19/12/12/12/13/2421997.jpg" alt="Films The Witcher"
+            width="220px" height="320"></li>
+      </ul>
+    </section>
+
+  </body>
+
+  <footer>
+    <div class="upper-footer">
+      <div>
+        <ul class="footer">
+          <i><a href="#" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+              Accueil </a></i>
+          <i><a href="#"
+              class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>> Films
+            et horaires</a></i>
+          <i><a href="#"
+              class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>>
+            Streaming</a></i>
+          <i><a href="#"
+              class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>>
+            Cinéma</a></i>
+          <i><a href="#"
+              class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>>
+            Evènements</a></i>
+          <i><a href="#"
+              class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>>
+            Politique de protection des données personnelles</a></i>
+          <i><a href="#"
+              class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>>
+            Préférences cookies</a></i>
+          <i><a href="#"
+              class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>>
+            Mentions légales</a></i>
+        </ul>
+      </div>
+    </div>
+    <div class="watermark">@2023</div>
+  </footer>
+</main>
+
+</html>
